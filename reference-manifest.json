@@ -1,0 +1,26 @@
+{
+  "project": "Payment Clarity",
+  "source_repository": "https://github.com/Singhacks-2026/juliusbaer-sidequest",
+  "source_branch": "main",
+  "retrieved_on": "2026-09-05",
+  "upstream_commit": null,
+  "note": "Content hashes identify this local reference snapshot; they do not establish upstream commit or policy effective dates.",
+  "files": {
+    "reference/DATA_NOTES.md": "a40c1dcb9cdf6a6372a8184e5653f0a669794bf569e73ccce276e44a70023777",
+    "reference/EVALUATION_CRITERIA.md": "a146f4c32182d5721f1bd81d7d6322d9d1e704cff545067a36fa20e240a554fc",
+    "reference/SUBMISSION_GUIDE.md": "e780c4d64f223beaced54faeb007b8c940d65aff88a14caf33a5cd5c56bcf65f",
+    "reference/UPSTREAM-LICENSE": "99d296fc73dc5e527bcbc595ba0078b41efdfa485a552ce7bdb9daf15cbc8679",
+    "reference/clients.csv": "fb4a74b06d675fabf3e692db332e48e0cf239380772c9b97ebac332159439b5f",
+    "reference/payments.csv": "2f43935fd8a9053696465e334e96ff3129581a4b9cb2b4349362d5490137589b",
+    "reference/policies/decoy_operational_1.md": "c75ce849135bddfa3b54a0828f199267da93276dfaa0caf7d9093fdc4b13b238",
+    "reference/policies/decoy_operational_2.md": "c75ce849135bddfa3b54a0828f199267da93276dfaa0caf7d9093fdc4b13b238",
+    "reference/policies/decoy_operational_3.md": "c75ce849135bddfa3b54a0828f199267da93276dfaa0caf7d9093fdc4b13b238",
+    "reference/policies/decoy_operational_4.md": "c75ce849135bddfa3b54a0828f199267da93276dfaa0caf7d9093fdc4b13b238",
+    "reference/policies/global_payment_policy.md": "45a80c7ef59525aaa87ae50ccff58064535f39288464e9d85522dadb7b734b47",
+    "reference/policies/high_risk_jurisdictions.md": "409e90c0055b59e4d0f49499f39aadbe089b0fd1799ef55947f0d3c0e778bdc4",
+    "reference/policies/investigation_procedure.md": "7b661f763a56b40cd5b23b5b715ccfa7eb478fcc149d3c10d77b75eb077cedc9",
+    "reference/policies/regional_singapore.md": "64d4a7a3cac13d7cc5db913d1878933c7d696d3f0fca8978cddff7d8cab96a2c",
+    "reference/policies/regional_switzerland.md": "7aa3d0f672eb206ea9d4ea49e6fc1b84bcf58c27753d79f2d4d160848da6ba7d",
+    "reference/questions.json": "fc872f58c6325de49daab9ad9ba59df25c06a62b688e93f09b103a3d269801d6"
+  }
+}

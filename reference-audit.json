@@ -1,0 +1,147 @@
+{
+  "payment_rows": 184,
+  "client_rows": 50,
+  "clients_with_payments": 47,
+  "unknown_client_ids": [],
+  "duplicate_payment_ids": [],
+  "duplicate_client_ids": [],
+  "blank_cells": 0,
+  "nonpositive_amounts": [],
+  "currencies": {
+    "USD": 35,
+    "CHF": 46,
+    "SGD": 30,
+    "GBP": 30,
+    "HKD": 43
+  },
+  "date_range": [
+    "2026-01-02",
+    "2026-07-27"
+  ],
+  "destination_codes": {
+    "SG": 36,
+    "AE": 36,
+    "CH": 40,
+    "HK": 46,
+    "GB": 26
+  },
+  "country_name_code_mismatch_count": 7,
+  "country_name_code_mismatch_ids": [
+    "P50000",
+    "P50002",
+    "P50003",
+    "P50004",
+    "P50180",
+    "P50181",
+    "P50182"
+  ],
+  "unmapped_country_names": [],
+  "repeated_client_beneficiary_date_currency_groups": [
+    {
+      "client_id": "C2003",
+      "beneficiary": "Northstar Trading",
+      "date": "2026-04-11",
+      "currency": "CHF",
+      "payment_ids": [
+        "P50003",
+        "P50180",
+        "P50181"
+      ],
+      "count": 3,
+      "total": "110000.0"
+    }
+  ],
+  "c2003_same_date_rows": [
+    {
+      "payment_id": "P50003",
+      "client_id": "C2003",
+      "beneficiary_name": "Northstar Trading",
+      "beneficiary_country": "Singapore",
+      "beneficiary_country_code": "CH",
+      "amount": "45000.0",
+      "currency": "CHF",
+      "channel": "Branch",
+      "payment_date": "2026-04-11"
+    },
+    {
+      "payment_id": "P50180",
+      "client_id": "C2003",
+      "beneficiary_name": "Northstar Trading",
+      "beneficiary_country": "Singapore",
+      "beneficiary_country_code": "CH",
+      "amount": "35000.0",
+      "currency": "CHF",
+      "channel": "Online",
+      "payment_date": "2026-04-11"
+    },
+    {
+      "payment_id": "P50181",
+      "client_id": "C2003",
+      "beneficiary_name": "Northstar Trading",
+      "beneficiary_country": "Singapore",
+      "beneficiary_country_code": "CH",
+      "amount": "30000.0",
+      "currency": "CHF",
+      "channel": "RM-assisted",
+      "payment_date": "2026-04-11"
+    },
+    {
+      "payment_id": "P50183",
+      "client_id": "C2003",
+      "beneficiary_name": "Desert Star LLC",
+      "beneficiary_country": "UAE",
+      "beneficiary_country_code": "AE",
+      "amount": "25000.0",
+      "currency": "CHF",
+      "channel": "Online",
+      "payment_date": "2026-04-11"
+    }
+  ],
+  "northstar_same_date_rows": [
+    {
+      "payment_id": "P50003",
+      "client_id": "C2003",
+      "beneficiary_name": "Northstar Trading",
+      "beneficiary_country": "Singapore",
+      "beneficiary_country_code": "CH",
+      "amount": "45000.0",
+      "currency": "CHF",
+      "channel": "Branch",
+      "payment_date": "2026-04-11"
+    },
+    {
+      "payment_id": "P50180",
+      "client_id": "C2003",
+      "beneficiary_name": "Northstar Trading",
+      "beneficiary_country": "Singapore",
+      "beneficiary_country_code": "CH",
+      "amount": "35000.0",
+      "currency": "CHF",
+      "channel": "Online",
+      "payment_date": "2026-04-11"
+    },
+    {
+      "payment_id": "P50181",
+      "client_id": "C2003",
+      "beneficiary_name": "Northstar Trading",
+      "beneficiary_country": "Singapore",
+      "beneficiary_country_code": "CH",
+      "amount": "30000.0",
+      "currency": "CHF",
+      "channel": "RM-assisted",
+      "payment_date": "2026-04-11"
+    },
+    {
+      "payment_id": "P50182",
+      "client_id": "C2006",
+      "beneficiary_name": "Northstar Trading",
+      "beneficiary_country": "Singapore",
+      "beneficiary_country_code": "CH",
+      "amount": "15000.0",
+      "currency": "USD",
+      "channel": "Online",
+      "payment_date": "2026-04-11"
+    }
+  ],
+  "limitations": "Grouping uses calendar date and native currency, not true rolling 24h or FX-adjusted totals. No suspicious-activity or review determinations are made."
+}
